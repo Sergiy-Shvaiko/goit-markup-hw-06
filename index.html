@@ -47,6 +47,78 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24px" height="24px">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="mobile-menu-container container">
+          <button class="btn-mobmenu-close" type="button" data-menu-close>
+            <svg class="icon-closed" width="8px" height="8px">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mobmenu-nav">
+            <ul class="mobmenu-nav-list">
+              <li>
+                <a href="" class="mobmenu-nav-list-item">Studio</a>
+              </li>
+              <li>
+                <a href="" class="mobmenu-nav-list-item">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="mobmenu-nav-list-item">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobmenu-adr">
+            <ul class="mobmenu-adr-list">
+              <li>
+                <a href="tel:1100011111111" class="mobmenu-tel"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a href="email:info@devstudio.com" class="mobmenu-email"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="soc-list">
+            <li class="soc-item">
+              <a href="" class="soc-link">
+                <svg class="soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-item">
+              <a href="" class="soc-link">
+                <svg class="soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-item">
+              <a href="" class="soc-link">
+                <svg class="soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-item">
+              <a href="" class="soc-link">
+                <svg class="soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -127,6 +199,10 @@
           <ul class="our-list">
             <li class="card-team">
               <img
+                srcset="
+                  ./images/team/team-card-1-2x.jpg 2x,
+                  ./images/team/team-card-1.jpg    1x
+                "
                 src="./images/team/team-card-1.jpg"
                 width="264"
                 alt="Mark Guerrero"
@@ -168,6 +244,10 @@
             </li>
             <li class="card-team">
               <img
+                srcset="
+                  ./images/team/team-card-2-2x.jpg 2x,
+                  ./images/team/team-card-2.jpg    1x
+                "
                 src="./images/team/team-card-2.jpg"
                 width="264"
                 alt="Tom Ford"
@@ -209,6 +289,10 @@
             </li>
             <li class="card-team">
               <img
+                srcset="
+                  ./images/team/team-card-3-2x.jpg 2x,
+                  ./images/team/team-card-3.jpg    1x
+                "
                 src="./images/team/team-card-3.jpg"
                 width="264"
                 alt="Camila Garcia"
@@ -250,6 +334,10 @@
             </li>
             <li class="card-team">
               <img
+                srcset="
+                  ./images/team/team-card-4-2x.jpg 2x,
+                  ./images/team/team-card-4.jpg    1x
+                "
                 src="./images/team/team-card-4.jpg"
                 width="264"
                 alt="Camila Garcia"
@@ -301,6 +389,10 @@
             <li class="portfolio-items">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/portfolio/portfolio-desc-1-min.jpg    1x,
+                    ./images/portfolio/portfolio-desc-1@2x-min.jpg 2x
+                  "
                   src="./images/row1/row-1-project-card-1.jpg"
                   alt="Banking App"
                   width="360"
@@ -319,6 +411,10 @@
             <li class="portfolio-items">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/portfolio/portfolio-desc-2-min.jpg    1x,
+                    ./images/portfolio/portfolio-desc-2@2x-min.jpg 2x
+                  "
                   src="./images/row1/row-1-project-card-2.jpg"
                   alt="Marketing"
                   width="360"
@@ -337,6 +433,10 @@
             <li class="portfolio-items">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/portfolio/portfolio-desc-3-min.jpg    1x,
+                    ./images/portfolio/portfolio-desc-3@2x-min.jpg 2x
+                  "
                   src="./images/row1/row-1-project-card-3.jpg"
                   alt="Meditaion App"
                   width="360"
@@ -355,6 +455,10 @@
             <li class="portfolio-items">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/portfolio/row-2-portfolio-desc-1-min.jpg    1x,
+                    ./images/portfolio/row-2-portfolio-desc-1@2x-min.jpg 2x
+                  "
                   src="./images/row2/row-2-project-card-1.jpg"
                   alt="Taxi Service"
                   width="360"
@@ -373,6 +477,10 @@
             <li class="portfolio-items">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/portfolio/row-2-portfolio-desc-2-min.jpg    1x,
+                    ./images/portfolio/row-2-portfolio-desc-2@2x-min.jpg 2x
+                  "
                   src="./images/row2/row-2-project-card-2.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -391,6 +499,10 @@
             <li class="portfolio-items">
               <div class="portfolio-img">
                 <img
+                  srcset="
+                    ./images/portfolio/row-2-portfolio-desc-3-min.jpg    1x,
+                    ./images/portfolio/row-2-portfolio-desc-3@2x-min.jpg 2x
+                  "
                   src="./images/row2/row-2-project-card-3.jpg"
                   alt="Online Courses"
                   width="360"
@@ -456,7 +568,7 @@
         </div>
         <!-- form sub -->
         <div class="sub-cont">
-          <p class="social-media">Subscribe</p>
+          <p class="sub-title">Subscribe</p>
           <form class="sub-form" name="Subscribe">
             <label class="sub-label" for="email-sub">
               <input
@@ -552,14 +664,17 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="policy-link" href="#">Privacy Policy</a>
+              <span>
+                I accept the terms and conditions of the
+                <a class="policy-link" href="#">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="order-servise-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
