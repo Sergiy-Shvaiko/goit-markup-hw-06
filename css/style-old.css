@@ -532,8 +532,8 @@ button {
   margin-bottom: 16px;
   color: #2e2f42;
 }
-.modal-form {
-}
+/* .modal-form {
+} */
 .input-cont {
   margin-bottom: 8px;
 }
@@ -610,6 +610,7 @@ button {
 }
 .policy-cont {
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   margin-bottom: 24px;
 }
@@ -625,6 +626,7 @@ button {
 }
 .check-input {
   display: inline-flex;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   align-items: center;
