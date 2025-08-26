@@ -820,7 +820,6 @@ button {
   line-height: 150%;
   letter-spacing: 0.02em;
 }
-/*  */
 .social-media {
   font-weight: 500;
   font-size: 16px;
@@ -843,7 +842,6 @@ button {
   align-items: center;
   gap: 16px;
 }
-/*  */
 .foot-soc-link {
   background-color: #4d5ae5;
   border-radius: 50%;
@@ -862,13 +860,7 @@ button {
 .foot-soc-icon {
   fill: #f4f4fd;
 }
-/* .sub-cont {} */
-/* @media screen and (min-width: 768px) {
-  .sub-cont {
-    align-items: flex-end;
-    margin-left: auto;
-  }
-} */
+
 @media screen and (min-width: 1158px) {
   .sub-cont {
     align-items: flex-end;
@@ -904,7 +896,6 @@ button {
     text-align: left;
   }
 }
-/*  */
 .sub-input {
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -1068,15 +1059,14 @@ button {
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  /* width: 360px; */
+
   width: 100%;
   height: 40px;
   padding-left: 38px;
-  /* font */
+
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
-  /* end font */
 
   background-color: transparent;
   outline: transparent;
